@@ -10,5 +10,18 @@
         <maven.compiler.release>26</maven.compiler.release>
         <exec.mainClass>ut4.persistencia.lab2.Lab2</exec.mainClass>
     </properties>
-    
+    <dependencies>
+    <!-- Hibernate 6 Core -->
+    <dependency>
+        <groupId>org.hibernate.orm</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>6.4.4.Final</version>
+    </dependency>
+    <!-- PostgreSQL Driver -->
+    <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+        <version>42.7.2</version>
+    </dependency>
+    </dependencies>
 </project>
